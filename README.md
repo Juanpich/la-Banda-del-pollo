@@ -1,6 +1,3 @@
 # LA BANDA DEL POLLO 🐔
 
-hola piscui
-
-holaaa jumpi  :( 
-
+Ft: Juan Pablo Chiclana Urraco, Francisco Cocirio, Agustin Ciantini, Jazmín Barragan y Felipe Berehean.
