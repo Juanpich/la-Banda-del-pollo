@@ -28,7 +28,12 @@ public String getEstado() {
 	return estado;
 }
 public void setEstado(String estado) {
-	this.estado = estado;
+	if(estado == "en pais de origen" || estado == "en consentracion" || estado == "viajando") {
+		this.estado = estado;
+	}else {
+		System.out.println("El estado ingresado no es correcto");
+	}
+	
 }
 public String getNacimiento() {
 	return nacimiento;
@@ -48,8 +53,14 @@ String nacimiento;
    }
    public boolean equals(Integrante inte) {
 	   Integrante aux = (Integrante)inte;
-	   System.out.println(this.getNumeroPasaporte() == aux.getNumeroPasaporte());
 	   return this.getNumeroPasaporte() == aux.getNumeroPasaporte();
+   }
+   public boolean getEstaDisponibleParaCaridad() {
+	   if(this.estado == "en pais de origen") {
+		   return true;
+	   }else {
+		   return false;
+	   }
    }
 
 

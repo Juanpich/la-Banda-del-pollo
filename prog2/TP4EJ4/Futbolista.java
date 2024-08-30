@@ -24,10 +24,6 @@ public class Futbolista extends Integrante {
 	public char getPieHabil() {
 		return this.pieHabil;
 	}
-	public boolean equals(Integrante inte) {
-		   Integrante aux = (Integrante)inte;
-		   System.out.println(this.getNumeroPasaporte() == aux.getNumeroPasaporte());
-		   return this.getNumeroPasaporte() == aux.getNumeroPasaporte();
-	   }
+	
 	
 }

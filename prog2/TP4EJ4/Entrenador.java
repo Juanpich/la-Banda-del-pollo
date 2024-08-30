@@ -17,10 +17,5 @@ public class Entrenador extends Integrante {
 	public void setFederacion(String federacion) {
 		this.federacion = federacion;
 	}
-	public boolean equals(Integrante inte) {
-		   Integrante aux = (Integrante)inte;
-		   System.out.println(this.getNumeroPasaporte() == aux.getNumeroPasaporte());
-		   return this.getNumeroPasaporte() == aux.getNumeroPasaporte();
-	   }
 	
 }

@@ -24,11 +24,7 @@ public class Masajista extends Integrante {
 	public void setTitulo(String titulo) {
 		this.titulo = titulo;
 	}
-	public boolean equals(Integrante inte) {
-		   Integrante aux = (Integrante)inte;
-		   System.out.println(this.getNumeroPasaporte() == aux.getNumeroPasaporte());
-		   return this.getNumeroPasaporte() == aux.getNumeroPasaporte();
-	   }
+	
 	
 	
 }
